@@ -1,0 +1,34 @@
+{
+  "name": "hacss-basic-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Minimalistic Hacss project template, suitable for prototyping or a static Web site where integration with an existing build process is not required",
+  "main": "index.html",
+  "scripts": {
+    "build": "hacss --output ha.css *.html",
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hacss/hacss-basic-template.git"
+  },
+  "keywords": [
+    "static",
+    "template",
+    "codesandbox",
+    "hacss",
+    "atomic",
+    "css"
+  ],
+  "author": "Nick Saunders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hacss/hacss-basic-template/issues"
+  },
+  "homepage": "https://github.com/hacss/hacss-basic-template#readme",
+  "devDependencies": {
+    "hacss": "^0.8.6",
+    "node": "^13.12.0",
+    "serve": "^11.3.0"
+  }
+}
